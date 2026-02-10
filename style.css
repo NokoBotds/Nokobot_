@@ -653,6 +653,21 @@ header {
 
 }
 
+/* La barre elle-même */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Le fond */
+::-webkit-scrollbar-track {
+  background: var(--card-bg);
+}
+
+/* La partie qui bouge */
+::-webkit-scrollbar-thumb {
+  background: var(--cyan);
+  border-radius: 5px;
+}
 
 
 .price {
